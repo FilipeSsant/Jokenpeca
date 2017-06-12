@@ -12,6 +12,55 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     android:background="@drawable/background"
     tools:context="br.com.gamesseller.yugiooh.InstrucoesActivity"
-    tools:showIn="@layout/activity_instrucoes">
+    tools:showIn="@layout/activity_instrucoes"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Você deve vencer o adversário, sendo que só há uma jogada para cada um."
+        android:textColor="#fff"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Ordem de elementos para vencer:"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Pedra vence Tesoura"
+        android:textColor="#fff"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Tesoura vence Papel"
+        android:textColor="#fff"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Papel vence Pedra"
+        android:textColor="#fff"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_marginTop="10px"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Pode haver empate entre os dois jogadores."
+        android:textColor="#fff"
+        android:textAlignment="center"/>
+
+
 
 </LinearLayout>
