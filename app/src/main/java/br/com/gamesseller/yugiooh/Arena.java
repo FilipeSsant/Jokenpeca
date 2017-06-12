@@ -50,12 +50,11 @@ public class Arena extends AppCompatActivity {
     public static ConnectionThread connect;
     String modo = "";
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_arena);
-
-        getSupportActionBar().hide();
 
         context = this;
 

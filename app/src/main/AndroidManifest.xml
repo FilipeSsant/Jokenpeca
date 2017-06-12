@@ -29,7 +29,8 @@
             android:label="Lista de Dispositivos Pareados" />
         <activity
             android:name=".Arena"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name=".JogarActivity"
             android:label="@string/title_activity_jogar"
@@ -39,10 +40,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="br.com.gamesseller.yugiooh.MainActivity" />
         </activity>
-        <activity
-            android:name=".BackgroundMusic"
-            android:label="@string/title_activity_background_music"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

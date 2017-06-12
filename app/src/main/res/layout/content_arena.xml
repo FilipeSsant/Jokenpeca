@@ -100,7 +100,6 @@
             android:id="@+id/textoStatusPartida"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="Você ganhou!"
             android:textColor="#fff"
             android:textAlignment="center"
             android:textSize="30dp"/>
