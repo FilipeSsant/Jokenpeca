@@ -1,0 +1,9 @@
+
+C:\Users\16165846\Documents\Java Projects\YUIGILICIA>git init
+Initialized empty Git repository in C:/Users/16165846/Documents/Java Projects/YUIGILICIA/.git/
+
+C:\Users\16165846\Documents\Java Projects\YUIGILICIA>git remote add origin https://github.com/echobiel/YUGILICIA.git
+
+C:\Users\16165846\Documents\Java Projects\YUIGILICIA>git config --local http.sslVerify false
+
+C:\Users\16165846\Documents\Java Projects\YUIGILICIA>git pull origin master

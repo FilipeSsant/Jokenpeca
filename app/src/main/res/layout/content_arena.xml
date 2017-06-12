@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.gamesseller.yugiooh.Arena"
+    tools:showIn="@layout/activity_arena"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0.2"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imagem_jogador2"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:background="#fff"
+                android:maxWidth="60dp"
+                android:minWidth="60dp" />
+
+            <TextView
+                android:id="@+id/nomeAdversario"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Adversário"
+                android:gravity="center_horizontal"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_weight="0.04">
+
+            <Button
+                android:onClick="enviarIdPedra"
+                android:scaleY="-1"
+                android:background="@drawable/pessoura"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+
+            <Button
+                android:layout_width="80dp"
+                android:scaleY="-1"
+                android:background="@drawable/papeldesu"
+                android:layout_height="80dp"
+                android:onClick="enviarIdPapel" />
+
+            <Button
+                android:layout_width="80dp"
+                android:scaleY="-1"
+                android:background="@drawable/pedrilson"
+                android:layout_height="80dp"
+                android:onClick="enviarIdTesoura" />
+
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/botao_sair"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.1"
+            android:background="@drawable/sair" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgStatusPartida"
+            android:layout_width="match_parent"
+            android:layout_height="240dp" />
+
+        <TextView
+            android:id="@+id/textoStatusPartida"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Você ganhou!"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.2"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.21"
+            android:gravity="center_horizontal">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnPedra"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:onClick="enviarIdPedra" />
+
+                <TextView
+                    android:id="@+id/txtBtn1Jogador"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textColor="#fff"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnPapel"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:onClick="enviarIdPapel" />
+
+                <TextView
+                    android:id="@+id/txtBtn2Jogador"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textColor="#fff"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnTesoura"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:onClick="enviarIdTesoura" />
+
+                <TextView
+                    android:id="@+id/txtBtn3Jogador"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textColor="#fff"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.35"
+            android:gravity="left"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imagem_jogador"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:background="#fff"
+                android:maxWidth="60dp"
+                android:minWidth="60dp" />
+
+            <TextView
+                android:id="@+id/nomeJogador"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Você"
+                android:gravity="center_horizontal"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,518 @@
+[
+    {
+        "outputFile": "C:\\Users\\16165846\\Documents\\Java Projects\\YUIGILICIA\\app\\libs\\dynamicgrid\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 66,
+                    "endOffset": 117
+                },
+                "from": {
+                    "file": "C:\\Users\\16165846\\Documents\\Java Projects\\YUIGILICIA\\app\\libs\\dynamicgrid\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 66,
+                        "endOffset": 117
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 122,
+                    "endColumn": 43,
+                    "endOffset": 161
+                },
+                "from": {
+                    "file": "C:\\Users\\16165846\\Documents\\Java Projects\\YUIGILICIA\\app\\libs\\dynamicgrid\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 122,
+                        "endColumn": 43,
+                        "endOffset": 161
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\16165846\\Documents\\YUGILICIA\\app\\libs\\dynamicgrid\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 66,
+                    "endOffset": 117
+                },
+                "from": {
+                    "file": "C:\\Users\\16165846\\Documents\\YUGILICIA\\app\\libs\\dynamicgrid\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 66,
+                        "endOffset": 117
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 122,
+                    "endColumn": 43,
+                    "endOffset": 161
+                },
+                "from": {
+                    "file": "C:\\Users\\16165846\\Documents\\YUGILICIA\\app\\libs\\dynamicgrid\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 122,
+                        "endColumn": 43,
+                        "endOffset": 161
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\16165846\\Documents\\Java Projects\\YUGIOOH\\app\\libs\\dynamicgrid\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 66,
+                    "endOffset": 117
+                },
+                "from": {
+                    "file": "C:\\Users\\16165846\\Documents\\Java Projects\\YUGIOOH\\app\\libs\\dynamicgrid\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 66,
+                        "endOffset": 117
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 122,
+                    "endColumn": 43,
+                    "endOffset": 161
+                },
+                "from": {
+                    "file": "C:\\Users\\16165846\\Documents\\Java Projects\\YUGIOOH\\app\\libs\\dynamicgrid\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 122,
+                        "endColumn": 43,
+                        "endOffset": 161
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\Expedito\\Music\\Jokenpo\\app\\libs\\dynamicgrid\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 66,
+                    "endOffset": 117
+                },
+                "from": {
+                    "file": "C:\\Users\\Expedito\\Music\\Jokenpo\\app\\libs\\dynamicgrid\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 66,
+                        "endOffset": 117
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 122,
+                    "endColumn": 43,
+                    "endOffset": 161
+                },
+                "from": {
+                    "file": "C:\\Users\\Expedito\\Music\\Jokenpo\\app\\libs\\dynamicgrid\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 122,
+                        "endColumn": 43,
+                        "endOffset": 161
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\16165842\\Documents\\YUGIOOH\\app\\libs\\dynamicgrid\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 66,
+                    "endOffset": 117
+                },
+                "from": {
+                    "file": "C:\\Users\\16165842\\Documents\\YUGIOOH\\app\\libs\\dynamicgrid\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 66,
+                        "endOffset": 117
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 122,
+                    "endColumn": 43,
+                    "endOffset": 161
+                },
+                "from": {
+                    "file": "C:\\Users\\16165842\\Documents\\YUGIOOH\\app\\libs\\dynamicgrid\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 122,
+                        "endColumn": 43,
+                        "endOffset": 161
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\ecobiel\\Documents\\Java Project\\YUGIOOH\\app\\libs\\dynamicgrid\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 66,
+                    "endOffset": 117
+                },
+                "from": {
+                    "file": "C:\\Users\\ecobiel\\Documents\\Java Project\\YUGIOOH\\app\\libs\\dynamicgrid\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 66,
+                        "endOffset": 117
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 122,
+                    "endColumn": 43,
+                    "endOffset": 161
+                },
+                "from": {
+                    "file": "C:\\Users\\ecobiel\\Documents\\Java Project\\YUGIOOH\\app\\libs\\dynamicgrid\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 122,
+                        "endColumn": 43,
+                        "endOffset": 161
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\16165846\\Documents\\Java Projects\\YUGILICIA\\app\\libs\\dynamicgrid\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 66,
+                    "endOffset": 117
+                },
+                "from": {
+                    "file": "C:\\Users\\16165846\\Documents\\Java Projects\\YUGILICIA\\app\\libs\\dynamicgrid\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 66,
+                        "endOffset": 117
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 122,
+                    "endColumn": 43,
+                    "endOffset": 161
+                },
+                "from": {
+                    "file": "C:\\Users\\16165846\\Documents\\Java Projects\\YUGILICIA\\app\\libs\\dynamicgrid\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 122,
+                        "endColumn": 43,
+                        "endOffset": 161
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\16165846\\Documents\\Mobile\\YUGIOOH\\app\\libs\\dynamicgrid\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 66,
+                    "endOffset": 117
+                },
+                "from": {
+                    "file": "C:\\Users\\16165846\\Documents\\Mobile\\YUGIOOH\\app\\libs\\dynamicgrid\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 66,
+                        "endOffset": 117
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 122,
+                    "endColumn": 43,
+                    "endOffset": 161
+                },
+                "from": {
+                    "file": "C:\\Users\\16165846\\Documents\\Mobile\\YUGIOOH\\app\\libs\\dynamicgrid\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 122,
+                        "endColumn": 43,
+                        "endOffset": 161
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\16165825.CFP127ALUNO\\Documents\\Projeto JOGO\\app\\libs\\dynamicgrid\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 66,
+                    "endOffset": 117
+                },
+                "from": {
+                    "file": "C:\\Users\\16165825.CFP127ALUNO\\Documents\\Projeto JOGO\\app\\libs\\dynamicgrid\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 66,
+                        "endOffset": 117
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 122,
+                    "endColumn": 43,
+                    "endOffset": 161
+                },
+                "from": {
+                    "file": "C:\\Users\\16165825.CFP127ALUNO\\Documents\\Projeto JOGO\\app\\libs\\dynamicgrid\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 122,
+                        "endColumn": 43,
+                        "endOffset": 161
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\16165825.CFP127ALUNO\\Desktop\\yugilicia\\app\\libs\\dynamicgrid\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 66,
+                    "endOffset": 117
+                },
+                "from": {
+                    "file": "C:\\Users\\16165825.CFP127ALUNO\\Desktop\\yugilicia\\app\\libs\\dynamicgrid\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 66,
+                        "endOffset": 117
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 122,
+                    "endColumn": 43,
+                    "endOffset": 161
+                },
+                "from": {
+                    "file": "C:\\Users\\16165825.CFP127ALUNO\\Desktop\\yugilicia\\app\\libs\\dynamicgrid\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 122,
+                        "endColumn": 43,
+                        "endOffset": 161
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\16165846\\Documents\\YUGIOOH\\app\\libs\\dynamicgrid\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 66,
+                    "endOffset": 117
+                },
+                "from": {
+                    "file": "C:\\Users\\16165846\\Documents\\YUGIOOH\\app\\libs\\dynamicgrid\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 66,
+                        "endOffset": 117
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 122,
+                    "endColumn": 43,
+                    "endOffset": 161
+                },
+                "from": {
+                    "file": "C:\\Users\\16165846\\Documents\\YUGIOOH\\app\\libs\\dynamicgrid\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 122,
+                        "endColumn": 43,
+                        "endOffset": 161
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\16165825\\Desktop\\yugilicia\\app\\libs\\dynamicgrid\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 66,
+                    "endOffset": 117
+                },
+                "from": {
+                    "file": "C:\\Users\\16165825\\Desktop\\yugilicia\\app\\libs\\dynamicgrid\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 66,
+                        "endOffset": 117
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 122,
+                    "endColumn": 43,
+                    "endOffset": 161
+                },
+                "from": {
+                    "file": "C:\\Users\\16165825\\Desktop\\yugilicia\\app\\libs\\dynamicgrid\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 122,
+                        "endColumn": 43,
+                        "endOffset": 161
+                    }
+                }
+            }
+        ]
+    }
+]
