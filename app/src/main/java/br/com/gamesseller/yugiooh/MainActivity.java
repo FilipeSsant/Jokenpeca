@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(this, JogarActivity.class));
                 break;
             case R.id.imgbtn_instrucoes:
-                startActivity(new Intent(this, JogarActivity.class));
+                startActivity(new Intent(this, InstrucoesActivity.class));
                 break;
             case R.id.imgbtn_creditos:
                 startActivity(new Intent(this, JogarActivity.class));

@@ -203,11 +203,20 @@ public class Arena extends AppCompatActivity {
                     btnTesoura.setEnabled(true);
                     btnPedra.setEnabled(true);
 
+
                 }
 
             }
         }
     };
+
+    private static void esperarParaLimpar(){
+
+        textoStatusPartida.setText("");
+        imgStatusPartida.setBackgroundResource(0);
+
+    }
+
 
     private static void verificarGanhador() {
 
@@ -221,28 +230,30 @@ public class Arena extends AppCompatActivity {
             textoStatusPartida.setText("Empate!");
             imgStatusPartida.setBackgroundResource(R.drawable.empate);
         }else if(btnClicadoVerificar1 == 1 && btnClicadoVerificar2 == 2){
-            textoStatusPartida.setText("Adversário Ganhou!");
+            textoStatusPartida.setText("Pedra(Adversário) x Papel(Você) : Adversário Ganhou!");
             imgStatusPartida.setBackgroundResource(R.drawable.perdedor);
         }else if(btnClicadoVerificar1 == 1 && btnClicadoVerificar2 == 3){
-            textoStatusPartida.setText("Você Ganhou!");
+            textoStatusPartida.setText("Pedra(Você) x Tesoura(Adversário) : Você Ganhou!");
             imgStatusPartida.setBackgroundResource(R.drawable.vencedor);
         }else if(btnClicadoVerificar1 == 2 && btnClicadoVerificar2 == 1){
-            textoStatusPartida.setText("Você Ganhou!");
+            textoStatusPartida.setText("Papel(Você) x Pedra(Adversário) : Você Ganhou!");
             imgStatusPartida.setBackgroundResource(R.drawable.vencedor);
         }else if(btnClicadoVerificar1 == 3 && btnClicadoVerificar2 == 1){
-            textoStatusPartida.setText("Adversário Ganhou!");
+            textoStatusPartida.setText("Tesoura(Adversário) x Pedra(Você) : Adversário Ganhou!");
             imgStatusPartida.setBackgroundResource(R.drawable.perdedor);
         }else if(btnClicadoVerificar1 == 2  && btnClicadoVerificar2 == 3){
-            textoStatusPartida.setText("Adversário Ganhou!");
+            textoStatusPartida.setText("Papel(Adversário) x Tesoura(Você) : Adversário Ganhou!");
             imgStatusPartida.setBackgroundResource(R.drawable.perdedor);
         }else if(btnClicadoVerificar1 == 3  && btnClicadoVerificar2 == 2){
-            textoStatusPartida.setText("Você Ganhou!");
+            textoStatusPartida.setText("Papel(Você) x Tesoura(Adversário) : Você Ganhou!");
             imgStatusPartida.setBackgroundResource(R.drawable.vencedor);
         }
 
 
         btnClicadoVerificar1 = 0;
         btnClicadoVerificar2 = 0;
+
+
     }
 
 
