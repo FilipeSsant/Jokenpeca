@@ -48,6 +48,7 @@
                 android:textColor="#fff"
                 android:text="Criar uma sala"
                 android:background="@color/colorPrimaryDark" />
+
         </LinearLayout>
     </LinearLayout>
     <TextView

@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
     ImageView fundo;
     Button imgbtn_jogar;
     private static Context context;
-    private static List<Carta> lstCartas = new ArrayList<>();
 
     View mDecorView;
 
@@ -56,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(this, InstrucoesActivity.class));
                 break;
             case R.id.imgbtn_creditos:
-                startActivity(new Intent(this, JogarActivity.class));
+                startActivity(new Intent(this, CreditosActivity.class));
                 break;
         }
 

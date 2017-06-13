@@ -2,17 +2,17 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/content_instrucoes"
+    android:id="@+id/content_creditos"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
     android:background="@drawable/background"
-    tools:context="br.com.gamesseller.yugiooh.InstrucoesActivity"
-    tools:showIn="@layout/activity_instrucoes"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.gamesseller.yugiooh.CreditosActivity"
+    tools:showIn="@layout/activity_creditos"
     android:gravity="center_vertical"
     android:orientation="vertical">
 
@@ -20,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
-        android:text="Objetivo"
+        android:text="Desenvolvedores"
         android:textSize="20dp"
         android:textColor="#fff"
         android:textAlignment="center" />
@@ -28,9 +28,16 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Filipe da Silva Santos"
+        android:textColor="#fff"
+        android:textAlignment="center"/>
 
-        android:layout_marginBottom="10dp"
-        android:text="Você deve vencer o adversário, sendo que só há uma jogada para cada um."
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Gabriel Jesus Ferreira"
         android:textColor="#fff"
         android:textAlignment="center"/>
 
@@ -38,7 +45,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
-        android:text="Requisitos"
+        android:text="Designers"
         android:textSize="20dp"
         android:textColor="#fff"
         android:textAlignment="center" />
@@ -46,50 +53,88 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="É necessário haver uma conexão bluetooth entre dois dispositivos para jogar o jogo"
+        android:layout_marginBottom="5dp"
+        android:text="Caio Amorim Santos"
         android:textColor="#fff"
-        android:layout_marginBottom="10dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Caio Sérgio Meirelles"
+        android:textColor="#fff"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Filipe da Silva Santos"
+        android:textColor="#fff"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Gabriel Jesus Ferreira"
+        android:textColor="#fff"
         android:textAlignment="center"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
-        android:text="Ordem de elementos para vencer"
+        android:text="Idealizadores"
         android:textSize="20dp"
         android:textColor="#fff"
-        android:textAlignment="center"/>
+        android:textAlignment="center" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Pedra vence Tesoura"
         android:layout_marginBottom="5dp"
-        android:textColor="#fff"
-        android:textAlignment="center"
-        android:id="@+id/textView2" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Tesoura vence Papel"
-        android:layout_marginBottom="5dp"
+        android:text="Caio Amorim Santos"
         android:textColor="#fff"
         android:textAlignment="center"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Papel vence Pedra"
         android:layout_marginBottom="5dp"
+        android:text="Caio Sérgio Meirelles"
         android:textColor="#fff"
         android:textAlignment="center"/>
 
     <TextView
-        android:layout_marginTop="10px"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Pode haver empate entre os dois jogadores."
+        android:layout_marginBottom="5dp"
+        android:text="Filipe da Silva Santos"
+        android:textColor="#fff"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Gabriel Jesus Ferreira"
+        android:textColor="#fff"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Orientador"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Kassiano"
         android:textColor="#fff"
         android:textAlignment="center"/>
 

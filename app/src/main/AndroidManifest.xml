@@ -48,6 +48,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="br.com.gamesseller.yugiooh.MainActivity" />
         </activity>
+        <activity
+            android:name=".CreditosActivity"
+            android:label="@string/title_activity_creditos"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.gamesseller.yugiooh.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

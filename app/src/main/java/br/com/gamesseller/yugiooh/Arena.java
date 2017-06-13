@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -43,8 +44,11 @@ public class Arena extends AppCompatActivity {
     Integer idElemento;
     Integer idBtnClicado;
     Integer imgElemento;
+    public static MediaPlayer mp;
     public static Integer btnClicadoVerificar1 = 0;
     public static Integer btnClicadoVerificar2 = 0;
+    public static Integer pontuacaoJogador1= 0;
+    public static Integer pontuacaoJogador2= 0;
     Integer contador;
     String nomeElemento;
     public static ConnectionThread connect;
@@ -134,10 +138,8 @@ public class Arena extends AppCompatActivity {
 
                 try {
                     if(modo.equals("client")){
-                        String informacoes = "0$4";
 
-                        byte[] data =  informacoes.getBytes();
-                        connect.write(data);
+                        Toast.makeText(context,"Só o servidor pode fechar a conexão.", Toast.LENGTH_SHORT).show();
 
                     }else {
                         if (finishMao() == false){
@@ -179,22 +181,24 @@ public class Arena extends AppCompatActivity {
 
             if (dataString.equals("---N")) {
                 Toast.makeText(context,"A conexão foi finalizada !",Toast.LENGTH_LONG).show();
+                pontuacaoJogador1= 0;
+                pontuacaoJogador2= 0;
                 context.startActivity(new Intent(context, JogarActivity.class));
             }else if (dataString.equals("---S")){
                 Toast.makeText(context,"Conectado com sucesso !",Toast.LENGTH_LONG).show();
 
             }else {
 
-                String informacoessaida = new String(data);
-                String[] output = informacoessaida.split("\\$");
-                if (output[0].equals("0")){
-
-                    finishMao();
-
-                }
 
                 String informacoes = new String(data);
                 btnClicadoVerificar2 = Integer.parseInt(informacoes);
+
+                if(btnClicadoVerificar2 != 0){
+
+                    Toast.makeText(context, "O adversário já selecionou!", Toast.LENGTH_SHORT).show();
+
+                }
+
                 if(btnClicadoVerificar1 != 0){
 
                     verificarGanhador();
@@ -212,6 +216,7 @@ public class Arena extends AppCompatActivity {
 
     private static void esperarParaLimpar(){
 
+
         textoStatusPartida.setText("");
         imgStatusPartida.setBackgroundResource(0);
 
@@ -228,24 +233,31 @@ public class Arena extends AppCompatActivity {
 
         if (btnClicadoVerificar1 == btnClicadoVerificar2){
             textoStatusPartida.setText("Empate!");
+            textoStatusPartida.setText("Você "+pontuacaoJogador1+" x "+pontuacaoJogador2+" Adversário");
             imgStatusPartida.setBackgroundResource(R.drawable.empate);
         }else if(btnClicadoVerificar1 == 1 && btnClicadoVerificar2 == 2){
-            textoStatusPartida.setText("Pedra(Adversário) x Papel(Você) : Adversário Ganhou!");
+            pontuacaoJogador2 = pontuacaoJogador2 + 1;
+            textoStatusPartida.setText("Você "+pontuacaoJogador1+" x "+pontuacaoJogador2+" Adversário");
             imgStatusPartida.setBackgroundResource(R.drawable.perdedor);
         }else if(btnClicadoVerificar1 == 1 && btnClicadoVerificar2 == 3){
-            textoStatusPartida.setText("Pedra(Você) x Tesoura(Adversário) : Você Ganhou!");
+            pontuacaoJogador1 = pontuacaoJogador1 + 1;
+            textoStatusPartida.setText("Você "+pontuacaoJogador1+" x "+pontuacaoJogador2+" Adversário");
             imgStatusPartida.setBackgroundResource(R.drawable.vencedor);
         }else if(btnClicadoVerificar1 == 2 && btnClicadoVerificar2 == 1){
-            textoStatusPartida.setText("Papel(Você) x Pedra(Adversário) : Você Ganhou!");
+            pontuacaoJogador1 = pontuacaoJogador1 + 1;
+            textoStatusPartida.setText("Você "+pontuacaoJogador1+" x "+pontuacaoJogador2+" Adversário");
             imgStatusPartida.setBackgroundResource(R.drawable.vencedor);
         }else if(btnClicadoVerificar1 == 3 && btnClicadoVerificar2 == 1){
-            textoStatusPartida.setText("Tesoura(Adversário) x Pedra(Você) : Adversário Ganhou!");
+            pontuacaoJogador2 = pontuacaoJogador2 + 1;
+            textoStatusPartida.setText("Você "+pontuacaoJogador1+" x "+pontuacaoJogador2+" Adversário");
             imgStatusPartida.setBackgroundResource(R.drawable.perdedor);
         }else if(btnClicadoVerificar1 == 2  && btnClicadoVerificar2 == 3){
-            textoStatusPartida.setText("Papel(Adversário) x Tesoura(Você) : Adversário Ganhou!");
+            pontuacaoJogador2 = pontuacaoJogador2 + 1;
+            textoStatusPartida.setText("Você "+pontuacaoJogador1+" x "+pontuacaoJogador2+" Adversário");
             imgStatusPartida.setBackgroundResource(R.drawable.perdedor);
         }else if(btnClicadoVerificar1 == 3  && btnClicadoVerificar2 == 2){
-            textoStatusPartida.setText("Papel(Você) x Tesoura(Adversário) : Você Ganhou!");
+            pontuacaoJogador1 = pontuacaoJogador1 + 1;
+            textoStatusPartida.setText("Você "+pontuacaoJogador1+" x "+pontuacaoJogador2+" Adversário");
             imgStatusPartida.setBackgroundResource(R.drawable.vencedor);
         }
 
@@ -288,6 +300,9 @@ public class Arena extends AppCompatActivity {
 
         if (connect != null) {
 
+
+            pontuacaoJogador1= 0;
+            pontuacaoJogador2= 0;
             connect.cancel();
             return true;
 
@@ -300,11 +315,13 @@ public class Arena extends AppCompatActivity {
 
     public void enviarIdPedra(View view) {
 
-        Toast.makeText(context,"Você Selecionou Pedra", Toast.LENGTH_SHORT).show();
+        mp = MediaPlayer.create(Arena.this, R.raw.audio1);
+        mp.start();
 
         idBtnClicado = btnPedra.getId();
         btnPapel.setEnabled(false);
         btnTesoura.setEnabled(false);
+
         btnClicadoVerificar1 = idBtnClicado;
 
         String informacoes = idBtnClicado.toString();
@@ -325,7 +342,8 @@ public class Arena extends AppCompatActivity {
 
     public void enviarIdPapel(View view) {
 
-        Toast.makeText(context,"Você Selecionou Papel", Toast.LENGTH_SHORT).show();
+        mp = MediaPlayer.create(Arena.this, R.raw.audio3);
+        mp.start();
 
         idBtnClicado = btnPapel.getId();
         btnPedra.setEnabled(false);
@@ -350,7 +368,8 @@ public class Arena extends AppCompatActivity {
 
     public void enviarIdTesoura(View view) {
 
-        Toast.makeText(context,"Você Selecionou Tesoura", Toast.LENGTH_SHORT).show();
+        mp = MediaPlayer.create(Arena.this, R.raw.audio2);
+        mp.start();
 
         idBtnClicado = btnTesoura.getId();
         btnPedra.setEnabled(false);
